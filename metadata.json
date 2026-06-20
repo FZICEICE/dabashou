@@ -1,0 +1,6 @@
+{
+  "name": "搭把手",
+  "description": "温度与温暖的邻里共享互助平台，包含共享货架、社区雷达、临时会话与暖心墙。",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
