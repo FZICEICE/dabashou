@@ -59,8 +59,8 @@ export default function LoginView({ onLogin }: LoginViewProps) {
       <div className="w-full max-w-sm relative z-10 flex flex-col items-center">
         {/* Branding */}
         <div className="flex flex-col items-center mb-6 w-full text-center">
-          <div className="w-20 h-20 shadow-[0_4px_20px_rgba(221,126,61,0.2)] rounded-2xl overflow-hidden mb-3 hover:scale-[1.03] transition-all duration-300">
-            <img src="/e2ac1cc73c8e8b5ba09a5875f769aef0.png" alt="搭把手 Logo" className="w-full h-full object-cover" />
+          <div className="w-20 mb-3 hover:scale-[1.03] transition-transform duration-300 flex justify-center items-center">
+            <img src="/LOGO.png" alt="搭把手 LOGO" className="w-full h-auto object-contain" />
           </div>
           <h1 className="text-2xl font-black text-[#d87532] tracking-wider mb-1">搭把手</h1>
           <p className="text-sm text-on-surface-variant font-medium text-slate-500">邻里之间，随手帮一把。</p>

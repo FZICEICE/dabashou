@@ -335,8 +335,8 @@ export default function App() {
                   <span className="material-symbols-outlined text-xl">menu_book</span>
                 </button>
                 <div className="flex-1 flex items-center justify-center gap-1.5 select-none font-bold">
-                  <div className="w-5.5 h-5.5 rounded-md overflow-hidden shadow-xxs shrink-0">
-                    <img src="/e2ac1cc73c8e8b5ba09a5875f769aef0.png" alt="搭把手 Logo" className="w-full h-full object-cover" />
+                  <div className="w-5.5 h-auto shrink-0 flex items-center justify-center">
+                    <img src="/LOGO.png" alt="搭把手 LOGO" className="w-full h-auto object-contain" />
                   </div>
                   <span className="font-black text-[#d87532] text-base tracking-wider">搭把手</span>
                 </div>

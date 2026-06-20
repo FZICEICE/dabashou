@@ -8,8 +8,8 @@ export default function SplashView({ onEnter }: SplashViewProps) {
   return (
     <div className="flex-1 flex flex-col items-center justify-center relative overflow-hidden px-6 text-center py-10 min-h-[600px] bg-[#FAF7F1]">
       <div className="flex-1 flex flex-col items-center justify-center w-full max-w-sm z-10 relative">
-        <div className="w-[200px] h-[200px] bg-white rounded-[45px] flex justify-center items-center shadow-[0_20px_40px_rgba(200,116,47,0.15)] mb-[35px] overflow-hidden hover:scale-[1.03] transition-all duration-300 transform cursor-pointer">
-          <img src="/e2ac1cc73c8e8b5ba09a5875f769aef0.png" alt="搭把手 Logo" className="w-[180px] h-[180px] rounded-[35px] object-cover" />
+        <div className="logo-section">
+          <img src="/LOGO.png" alt="搭把手 LOGO" className="app-logo" />
         </div>
 
         {/* Logo Text below */}

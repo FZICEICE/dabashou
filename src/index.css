@@ -99,3 +99,20 @@ body {
   color: var(--color-on-background);
   -webkit-tap-highlight-color: transparent;
 }
+
+/* User specified generic logo styles */
+.app-logo {
+  width: 240px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
