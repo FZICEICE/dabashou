@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import logo from '../assets/LOGO.png';
 
 interface LoginViewProps {
   onLogin: (phone: string) => void;
@@ -58,13 +59,17 @@ export default function LoginView({ onLogin }: LoginViewProps) {
 
       <div className="w-full max-w-sm relative z-10 flex flex-col items-center">
         {/* Branding */}
-        <div className="flex flex-col items-center mb-6 w-full text-center">
-          <div className="w-20 mb-3 hover:scale-[1.03] transition-transform duration-300 flex justify-center items-center">
-            <img src="/LOGO.png" alt="搭把手 LOGO" className="w-full h-auto object-contain" />
-          </div>
-          <h1 className="text-2xl font-black text-[#d87532] tracking-wider mb-1">搭把手</h1>
-          <p className="text-sm text-on-surface-variant font-medium text-slate-500">邻里之间，随手帮一把。</p>
-        </div>
+       {/* Branding */}
+<div className="flex flex-col items-center mb-6 w-full text-center">
+  <img
+    src={logo}
+    alt="搭把手 LOGO"
+    className="w-[180px] h-auto object-contain mb-3"
+  />
+  <p className="text-sm text-on-surface-variant font-medium text-slate-500">
+    邻里之间，随手帮一把。
+  </p>
+</div>
 
         {/* Input Fields container */}
         <div className="bg-white/50 backdrop-blur-md border border-outline-variant/40 rounded-2xl p-6 flex flex-col gap-4 mb-4 w-full shadow-[0_8px_32px_rgba(168,198,159,0.1)]">
