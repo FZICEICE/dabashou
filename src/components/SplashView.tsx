@@ -1,3 +1,4 @@
+import logo from '../assets/LOGO.png';
 import React from 'react';
 
 interface SplashViewProps {
@@ -9,7 +10,7 @@ export default function SplashView({ onEnter }: SplashViewProps) {
     <div className="flex-1 flex flex-col items-center justify-center relative overflow-hidden px-6 text-center py-10 min-h-[600px] bg-[#FAF7F1]">
       <div className="flex-1 flex flex-col items-center justify-center w-full max-w-sm z-10 relative">
         <div className="logo-section">
-          <img src="/LOGO.png" alt="搭把手 LOGO" className="app-logo" />
+          <img src={logo} alt="搭把手 LOGO" className="app-logo" />
         </div>
 
         {/* Logo Text below */}
