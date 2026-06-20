@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from './assets/LOGO.png';
 import { Screen, SharedItem, BeaconHelp, WarmNote, Notice } from './types';
 import { 
   INITIAL_ITEMS,
@@ -334,12 +335,13 @@ export default function App() {
                 >
                   <span className="material-symbols-outlined text-xl">menu_book</span>
                 </button>
-                <div className="flex-1 flex items-center justify-center gap-1.5 select-none font-bold">
-                  <div className="w-5.5 h-auto shrink-0 flex items-center justify-center">
-                    <img src="/LOGO.png" alt="搭把手 LOGO" className="w-full h-auto object-contain" />
-                  </div>
-                  <span className="font-black text-[#d87532] text-base tracking-wider">搭把手</span>
-                </div>
+               <div className="flex-1 flex items-center justify-center select-none">
+  <img
+    src={logo}
+    alt="搭把手 LOGO"
+    className="w-[88px] max-h-10 object-contain"
+  />
+</div>
                 <button 
                   onClick={() => setScreen(Screen.MY_PROFILE)}
                   className="text-[#4a6545] hover:bg-[#ece8e0] transition-colors w-8 h-8 rounded-full overflow-hidden flex items-center justify-center bg-surface-container shadow-xs cursor-pointer border border-[#ece8e0]"
